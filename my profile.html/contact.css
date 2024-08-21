@@ -1,0 +1,103 @@
+
+
+body{
+   
+    background-image: url("./cont.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 590px ;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    padding: 80px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+h1{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -60px;
+}
+
+
+.contact-info {
+    flex: 1;
+    /* margin-right: 50px; */
+    
+    
+}
+
+.contact-form {
+    flex: 1;
+    
+}
+
+.info p, .icon {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+
+.icon{
+    margin-top: 150px;
+    display: flex;
+    
+}
+
+.icon :hover{
+    color: white ;
+   
+ } 
+
+
+
+#github{
+    margin-left: -330px;
+    font-size:40px;
+    border-radius: 90px;
+    
+
+}
+
+#linkedin{
+    margin-left: -270px;
+    font-size:40px;
+
+}
+
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+#contactForm{
+    margin-top: 20px;
+}

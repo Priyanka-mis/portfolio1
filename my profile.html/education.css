@@ -1,0 +1,110 @@
+body{
+
+   background-image: url("./back5.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 140% ;
+}
+
+.section-container{
+    margin-top: 170px;
+    margin-left: 500px;
+}
+  
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--test-dark);
+
+
+}
+
+.hyper-h4{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    /* margin-bottom: .9rem; */
+}
+
+.hyper-p{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    /* margin-bottom: 3rem; */
+}
+
+.ng-h4{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    /* margin-top: -30px; */
+}
+.ng-p{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    /* margin-bottom: 3rem; */
+    
+}
+
+.ba-h4{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    /* margin-top: 20px; */
+}
+
+.ba-p{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    /* margin-bottom: 3rem; */
+} 
+
+
+
+.next-button button{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 40px;
+    width: 100px;
+  
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.next-button{
+    display: flex;
+    gap: 1rem;  
+
+}
+
+.next-button .next a{
+    color:  #ffffff;
+}
+
+
+.next:hover{
+    background-color: #ffffff;
+
+}
+
+.next-button .next:hover a {
+    color: black;
+}
+
+
+
+
+
+
+
+
+@media (width <750px){
+    /* .section-container{
+        padding: 10rem 1rem 5rem 1rem;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+    } */
+
+
+}

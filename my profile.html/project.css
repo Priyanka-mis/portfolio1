@@ -1,0 +1,140 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}*
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./back3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.section{
+    /* box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45); */
+}
+
+
+
+.content{
+   
+    /* margin-top: 50px; */
+    margin-left: 260px;
+    margin-right: 90px;
+    /* box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45); */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--test-dark);
+    /* margin-top: 50px; */
+
+}
+
+.dic-h4{
+    line-height: 1.5rem;
+    color: var(--test-light);
+}
+
+.dic-p{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    /* margin-bottom: 200px; */
+}
+
+
+
+.net-h4{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    margin-top: 20px;
+}
+
+.net-p{
+    line-height: 1.5rem;
+    color: var(--test-light);
+
+}
+
+
+.cal-h4{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    margin-top: 20px;
+}
+
+.cal-p{
+    line-height: 1.5rem;
+    color: var(--test-light);
+    
+}
+
+strong{
+    font-size: 15px;
+}
+
+.span-cal a{
+    color:blue
+
+}
+
+.next-button button{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 500px;
+    height: 40px;
+    width: 100px;
+  
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.next-button{
+    display: flex;
+    gap: 1rem;  
+
+}
+
+.next-button .next a{
+    color:  #ffffff;
+}
+
+
+.next:hover{
+    background-color: #ffffff;
+
+}
+
+.next-button .next:hover a {
+    color: black;
+}
+
+
+
+
+
+ @media (width <750px){
+    nav .checkbox{
+        display: block;
+    }
+    .section-container{
+        padding: 10rem 1rem 5rem 1rem;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
